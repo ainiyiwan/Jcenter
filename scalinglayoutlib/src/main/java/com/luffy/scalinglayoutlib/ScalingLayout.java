@@ -18,6 +18,11 @@ import android.widget.FrameLayout;
  */
 public class ScalingLayout extends FrameLayout {
 
+    /**
+     * 伸缩过程回调
+     */
+    private ScalingCallback mScalingCallback;
+
     public ScalingLayout(@NonNull Context context) {
         super(context);
         init(context, null);
