@@ -1,4 +1,4 @@
-package com.het.jcenter;
+package com.luffy.scalinglayoutlib;
 
 import org.junit.Test;
 
